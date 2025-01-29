@@ -97,3 +97,30 @@ c2 = CircleUpdated(12)
 print(c2.radius)
 c2.radius = 15
 print(c2.radius)
+
+
+# simple decorator
+def add_decorator(func):
+    def wrapper(*args, **kwargs):
+        print("First")
+        func(*args, **kwargs)
+        print("second")    
+    return wrapper
+
+# calling the decorator
+# method 1
+def print_hi():
+    print("Hi")
+add = add_decorator(print_hi)
+add()
+
+# method 2 - pythonic way
+@add_decorator
+def print_hi_2_times():
+    print("hi"*2)
+
+print_hi_2_times()
+
+## References
+# https://realpython.com/python-getter-setter/
+# https://realpython.com/primer-on-python-decorators/
