@@ -1,13 +1,20 @@
 """
 Source : Techgig Januaury Code Challenge
-Qns : The New Year Party is on and people are coming up with new and innovative ideas for party and games. Mr. Alphabet has organised such a theme party. He has invited N people for the party and all have come wearing a t-shirt with a single lowercase alphabet printed on it. The alphabet may be their starting name or their favorite of all 26. The alphabet on the t-shirt provides individuals with their party number. 
+Qns : The New Year Party is on and people are coming up with new and innovative ideas for party and games. 
+    Mr. Alphabet has organised such a theme party. He has invited N people for the party and all have come wearing a t-shirt with a single lowercase alphabet printed on it. 
+    The alphabet may be their starting name or their favorite of all 26. The alphabet on the t-shirt provides individuals with their party number. 
 Example:
-Suppose if the t-shirt has 'a' printed on it, then the party number of the person wearing that is equal to 1 and so on with the alphabet 'z' having the party number 26.
-Mr. Alphabet has organised a game for the guests. In this game, N people will arrange themselves in a linear manner randomly. Mr. Alphabet will provide a party number P and people have to tell the count of all those, the sum of whose will be equal to P. The limitation is that only the continuous ones can be together in forming the party number P.
+    Suppose if the t-shirt has 'a' printed on it, then the party number of the person wearing that is equal to 1 
+    and so on with the alphabet 'z' having the party number 26. Mr. Alphabet has organised a game for the guests. 
+    In this game, N people will arrange themselves in a linear manner randomly. Mr. Alphabet will provide a party number P 
+    and people have to tell the count of all those, the sum of whose will be equal to P. The limitation is that only the 
+    continuous ones can be together in forming the party number P.
 Example:
 Suppose there are 3 people, N =3.
 The alphabets on their t-shirt are 'a', 'b', and 'c' respectively. The limitation is that only continuous ones can be together.
-Mr. Alphabet will provide gifts for the correct answers. No one wants to lose out on the gifts but they are finding it difficult to answer. Can you help them and provide correct answers to Mr. Alphabet?
+Mr. Alphabet will provide gifts for the correct answers. No one wants to lose out on the gifts but they are finding it difficult to answer. 
+Can you help them and provide correct answers to Mr. Alphabet?
+
 Input Format
 The first line of input consists of the number of test cases, T
 The first line of each test case consists of the number of people, N and the Party number, P
